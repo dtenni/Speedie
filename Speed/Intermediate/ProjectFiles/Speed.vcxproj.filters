@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Speed.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9D0701D9-8A51-490B-8078-0A4033928548}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Speed.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpeedEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{EB5EC853-093E-4EA3-ABDE-4CC4B1CA2F15}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Speed">
+      <UniqueIdentifier>{001DE007-704A-4CE5-A556-EBD889CC9DA0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Speed\Speed.Build.cs">
+      <Filter>Source\Speed</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Speed\Speed.cpp">
+      <Filter>Source\Speed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Speed\Speed.h">
+      <Filter>Source\Speed</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Speed\SpeedGameModeBase.cpp">
+      <Filter>Source\Speed</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Speed\SpeedGameModeBase.h">
+      <Filter>Source\Speed</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Speed\Modes">
+      <UniqueIdentifier>{4eca427d-d5d4-4299-b16c-62dc4dad93bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Speed\Modes\TestGameMode.h">
+      <Filter>Source\Speed\Modes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Speed\Modes\TestGameMode.cpp">
+      <Filter>Source\Speed\Modes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

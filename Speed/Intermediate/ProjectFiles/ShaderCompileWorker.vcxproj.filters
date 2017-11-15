@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{273AA4C5-74FE-4C78-853E-A16140A0E173}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{DB262609-6118-4E52-AB7C-F8A598070212}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{250EA4A4-91CD-47D8-9493-86092CF54099}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<ClInclude Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\Resources\resource.h">
+			<Filter>Resources</Filter>
+		</ClInclude >
+		<ResourceCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\Resources\Resource.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+		<Manifest Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\Resources\Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\ShaderCompileWorker\Resources\Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Target.cs" />
+		<None Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{B39258C5-94D9-4156-BBE6-3622ADC44A68}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

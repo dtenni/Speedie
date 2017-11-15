@@ -1,0 +1,3 @@
+C:\Repos\Speed\Speed\Source\Speed\Speed.Build.cs
+C:\Repos\Speed\Speed\Source\Speed.Target.cs
+C:\Repos\Speed\Speed\Source\SpeedEditor.Target.cs

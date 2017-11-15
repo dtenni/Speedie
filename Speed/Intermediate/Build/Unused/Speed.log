@@ -1,0 +1,7 @@
+﻿  Performing 2 actions (9 in parallel)
+  [1/2] Link UE4Editor-Speed.dll
+  [2/2] Link UE4Editor-Speed.lib
+     Creating library C:\Repos\Speed\Speed\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Speed.lib and object C:\Repos\Speed\Speed\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Speed.exp
+     Creating library C:\Repos\Speed\Speed\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Speed.suppressed.lib and object C:\Repos\Speed\Speed\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Speed.suppressed.exp
+  Deploying SpeedEditor Win64 Development...
+  Total build time: 6.34 seconds (Local executor: 1.65 seconds)

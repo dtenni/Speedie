@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{40C955B8-7DDF-4209-81FC-5EDEF59FC794}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
+		<None Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{A4A85D52-8642-4467-83AC-DD51166F6D63}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Private\ToolModes">
+			<UniqueIdentifier>{006E7330-C527-41F9-B0FC-4E666432516E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{63087B3E-46E1-49EF-BE88-1DAEB20D7BE8}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Public\Interfaces">
+			<UniqueIdentifier>{0852F44E-6728-43F4-9673-AEFD66CFA9E3}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
+			<Filter>Public\Interfaces</Filter>
+		</ClInclude >
+		<Filter Include="Public\ToolModes">
+			<UniqueIdentifier>{C8116222-B23E-4142-8505-AFE66D3A93F4}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\Desktop\ue4\UnrealEngine-release\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{ED7A6C43-46E5-3E7D-34DE-799F2169C514}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Speed",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}
